@@ -1,0 +1,13 @@
+# Ignore logs
+*.log
+*.out
+*.err
+
+# Ignore docker-compose volumes
+data/
+prometheus_data/
+alertmanager_data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
